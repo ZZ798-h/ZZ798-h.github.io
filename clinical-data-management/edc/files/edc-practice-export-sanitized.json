@@ -1,0 +1,1100 @@
+{
+  "entries": {
+    "301-400-101::v1::sourceHeader": {
+      "study_name": "REVIEWER PLAYGROUND",
+      "subject_id": "C - J 301-400-101",
+      "visit_number": "1",
+      "visit_name": "Screening",
+      "source_version": "3 - Version 3",
+      "status_completed_date": "2024-05-10",
+      "principal_investigator": "[fictional training role]",
+      "contributors": "[fictional training role]\n[fictional training role]",
+      "timezone": "US/Eastern"
+    },
+    "301-400-101::v1::icf": {
+      "consent_obtained": "Yes",
+      "consent_before_procedures": "Yes",
+      "consent_type": "Initial Consent",
+      "signature_datetime": "2024-05-10T18:47"
+    },
+    "301-400-101::v1::eligibility": {
+      "inc_1": "Yes",
+      "inc_2": "Yes",
+      "inc_3": "Yes",
+      "inc_4": "Yes",
+      "inc_5": "Yes",
+      "inc_6": "Yes",
+      "inc_7": "Yes",
+      "exc_1": "No",
+      "exc_2": "No",
+      "exc_3": "No",
+      "exc_4": "No",
+      "exc_5": "No"
+    },
+    "301-400-101::v1::demographics": {
+      "dob": "1966-05-24",
+      "age": "57",
+      "sex": "Male",
+      "race": "White"
+    },
+    "301-400-101::v1::medicalHistory": {
+      "no_history": false,
+      "history": [
+        {
+          "Finding": "Type 2 Diabetes",
+          "Start": "00-FEB-2024",
+          "Stop": "ONGOING"
+        },
+        {
+          "Finding": "Bipolar Disorder",
+          "Start": "00-JUN-2023",
+          "Stop": "ONGOING"
+        },
+        {
+          "Finding": "Asthma",
+          "Start": "00-OCT-2019",
+          "Stop": "ONGOING"
+        },
+        {
+          "Finding": "Hypertension",
+          "Start": "00-NOV-2017",
+          "Stop": "ONGOING"
+        },
+        {
+          "Finding": "Diabetic Neuropathjc Pain",
+          "Start": "00-MAR-2024",
+          "Stop": "ONGOING"
+        }
+      ]
+    },
+    "301-400-101::v1::heightWeight": {
+      "height_in": "66",
+      "height_cm": "167.6",
+      "weight_lb": "180",
+      "weight_kg": "81.6",
+      "bmi": "26.8"
+    },
+    "301-400-101::v1::vitals": {
+      "position": "Supine",
+      "position_datetime": "2024-05-10T18:45",
+      "vitals_datetime": "2024-05-10T18:50",
+      "temp_f": "98.8",
+      "temp_c": "37.1",
+      "temp_method": "Oral",
+      "resp_rate": "16",
+      "heart_rate": "70",
+      "arm_used": "Left",
+      "systolic_bp": "125",
+      "diastolic_bp": "73"
+    },
+    "301-400-101::v1::physicalExam": {
+      "general": "Normal",
+      "skin": "Normal",
+      "head_neck": "Normal",
+      "ent": "Normal",
+      "eyes": "Normal",
+      "cns": "Normal",
+      "chest": "Normal",
+      "cardio": "Normal",
+      "abdomen": "Normal",
+      "lymph": "Normal",
+      "extremities": "Normal",
+      "gu": "Normal",
+      "other": "Not Done",
+      "abnormal_details": "",
+      "exam_comments": ""
+    },
+    "301-400-101::v1::triplicateEcg": {
+      "ecg_performed": "Yes",
+      "ecg_before_vitals_labs": "Yes",
+      "sex": "Female",
+      "position": "Supine",
+      "time_in_position": "2024-05-10T19:00",
+      "ecg_1_time": "2024-05-10T19:05",
+      "ecg_1_hr": "77",
+      "ecg_1_rr": "779",
+      "ecg_1_p_dur": "68",
+      "ecg_1_pr_int": "132",
+      "ecg_1_qrs_dur": "88",
+      "ecg_1_qt": "376",
+      "ecg_1_result": "Normal",
+      "ecg_2_time": "2024-05-10T19:06",
+      "ecg_2_hr": "79",
+      "ecg_2_rr": "766",
+      "ecg_2_p_dur": "65",
+      "ecg_2_pr_int": "135",
+      "ecg_2_qrs_dur": "90",
+      "ecg_2_qt": "380",
+      "ecg_2_result": "Normal",
+      "ecg_3_time": "2024-05-10T19:07",
+      "ecg_3_hr": "80",
+      "ecg_3_rr": "780",
+      "ecg_3_p_dur": "63",
+      "ecg_3_pr_int": "134",
+      "ecg_3_qrs_dur": "91",
+      "ecg_3_qt": "377",
+      "ecg_performer": "[fictional training role]",
+      "overall_result": "Normal",
+      "ecg_3_result": "Normal"
+    },
+    "301-400-101::v1::labs": {
+      "changes_since_last_visit": "No",
+      "change_reason": "",
+      "change_details": "",
+      "no_samples": false,
+      "fasted_8h": "Yes",
+      "hematology_collected": "Yes",
+      "chemistry_collected": "Yes",
+      "hba1c_collected": "Yes",
+      "urinalysis_collected": "Yes",
+      "collection_datetime": "2024-05-10T18:53",
+      "lab_records": [
+        {
+          "Sample Collected": "Yes",
+          "Visit": "V1/Screening",
+          "Fasted 8 Hours": "Yes",
+          "Blood Sample": "Yes",
+          "Urinalysis": "Yes",
+          "Date/Time Collected": "10-MAY-2024 18:45",
+          "Lab Requisition Number": "3828675"
+        },
+        {
+          "Sample Collected": "",
+          "Visit": "",
+          "Fasted 8 Hours": "",
+          "Blood Sample": "",
+          "Urinalysis": "",
+          "Date/Time Collected": "",
+          "Lab Requisition Number": ""
+        },
+        {
+          "Sample Collected": "",
+          "Visit": "",
+          "Fasted 8 Hours": "",
+          "Blood Sample": "",
+          "Urinalysis": "",
+          "Date/Time Collected": "",
+          "Lab Requisition Number": ""
+        }
+      ]
+    },
+    "301-400-101::v1::analgesic": {
+      "analgesics_discontinued": "Yes",
+      "last_dose_date": "",
+      "comments": ""
+    },
+    "301-400-101::v1::rescueMedication": {
+      "dispensed": "Yes",
+      "kit_or_lot": "",
+      "quantity_dispensed": "",
+      "quantity_returned": "",
+      "quantity_used_since_last_visit": "",
+      "maximum_daily_dose_exceeded": "",
+      "use_notes": "",
+      "accountability_done": "",
+      "comments": ""
+    },
+    "301-400-101::v1::bpi": {
+      "completed": "Yes",
+      "completion_datetime": "",
+      "comments": ""
+    },
+    "301-400-101::v1::pgi": {
+      "completed": "Yes",
+      "severity": "3 - Mild",
+      "completion_datetime": ""
+    },
+    "301-400-101::v1::conMeds": {
+      "changes_since_last_visit": "",
+      "no_meds": false,
+      "meds": [
+        {
+          "Medication": "Metformin",
+          "Reason": "Type 2 Diabetes",
+          "Start": "02-FEB-2024",
+          "Stop": "ONGOING",
+          "Dose": "500",
+          "Units": "milligrams (mg)",
+          "Route": "Oral",
+          "Frequency": "Daily (QD)"
+        },
+        {
+          "Medication": "Lidocaine 4%",
+          "Reason": "Neuropathic Pain - DPN",
+          "Start": "14-JAN-2024",
+          "Stop": "OBGOING",
+          "Dose": "N/A",
+          "Units": "other apply vigorously",
+          "Route": "Topical",
+          "Frequency": "As needed (PRN)"
+        },
+        {
+          "Medication": "Multivitamin (one a Day, Women's)",
+          "Reason": "Overall general Health",
+          "Start": "08-JUL-2026",
+          "Stop": "ONGOING",
+          "Dose": "1 capsule",
+          "Units": "other 1 capsule",
+          "Route": "Oral",
+          "Frequency": "Daily (QD)"
+        },
+        {
+          "Medication": "Norvasc",
+          "Reason": "Hypertension",
+          "Start": "17-NOV-2017",
+          "Stop": "ONGOING",
+          "Dose": "10",
+          "Units": "milligrams (mg)",
+          "Route": "Oral",
+          "Frequency": "Daily (QD)"
+        }
+      ]
+    },
+    "301-400-101::v1::adverseEvents": {
+      "changes_since_last_visit": "",
+      "no_ae": true,
+      "aes": [
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        },
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        },
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        },
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        },
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        }
+      ]
+    },
+    "301-400-101::v1::protocolDeviations": {
+      "no_deviations": true,
+      "deviations": [
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        },
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        },
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        },
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        },
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        }
+      ]
+    },
+    "301-400-101::v1::sourceFindings": {
+      "source_note_reviewed": "Yes",
+      "findings": [
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        }
+      ]
+    },
+    "301-400-101::v1::progressNote": {
+      "note_datetime": "2024-05-10T19:19",
+      "author": "[fictional training role]",
+      "note": "Patient appeared clean, well dressed, well spoken and presented in a friendly manner. The patient was consented to participate in the 301-400-101 study, ICF version 1.0. Patient was taken to a private room and given all the time they needed to review the ICF until completed. Their questions were answered and provided with alternatives to participating in the study. They were asked if they wanted to review the ICF with family prior to signing. They did not and signed the consent form. Consent was signed by subject prior to any study procedures and the site representative performing the ICF countersigned.",
+      "history": "",
+      "reportable_facts": ""
+    },
+    "301-400-101::v1::signoff": {
+      "visit_esigned": "Yes",
+      "signer": "[fictional training role]",
+      "signature_datetime": "2024-05-10T19:20",
+      "review_statement": "I have reviewed the source documentation for this visit."
+    },
+    "301-400-101::v2::sourceHeader": {
+      "study_name": "REVIEWER PLAYGROUND",
+      "subject_id": "C-J 301-400-101",
+      "visit_number": "2",
+      "visit_name": "Base/Randomization",
+      "source_version": "3 - version 3",
+      "status_completed_date": "2024-05-13",
+      "principal_investigator": "[fictional training role]",
+      "contributors": "[fictional training role]\n[fictional training role]",
+      "timezone": "US/Eastern"
+    },
+    "301-400-101::v2::vitals": {
+      "position": "Supine",
+      "position_datetime": "2024-05-13T19:23",
+      "vitals_datetime": "2024-05-13T19:28",
+      "temp_f": "98.9",
+      "temp_c": "37.2",
+      "temp_method": "Oral",
+      "resp_rate": "17",
+      "heart_rate": "110",
+      "arm_used": "Left",
+      "systolic_bp": "129",
+      "diastolic_bp": "84"
+    },
+    "301-400-101::v2::ecg": {
+      "ecg_performed": "Yes",
+      "ecg_before_vitals_labs": "Yes",
+      "sex": "Female",
+      "position": "Supine",
+      "time_in_position": "2024-05-13T19:30",
+      "ecg_time": "2024-05-13T19:35",
+      "hr": "109",
+      "rr": "781",
+      "p_dur": "66",
+      "pr_int": "134",
+      "qrs_dur": "92",
+      "qt": "390",
+      "ecg_performer": "[fictional training role]",
+      "result": "Normal",
+      "comments": ""
+    },
+    "301-400-101::v2::labs": {
+      "changes_since_last_visit": "Yes",
+      "change_reason": "Other",
+      "change_details": "New Lab",
+      "no_samples": false,
+      "fasted_8h": "Yes",
+      "hematology_collected": "Yes",
+      "chemistry_collected": "Yes",
+      "hba1c_collected": "Yes",
+      "urinalysis_collected": "Yes",
+      "collection_datetime": "2024-05-13T19:40",
+      "lab_records": [
+        {
+          "Sample Collected": "Yes",
+          "Visit": "V2",
+          "Fasted 8 Hours": "Yes",
+          "Blood Sample": "Yes",
+          "Urinalysis": "Yes",
+          "Date/Time Collected": "13-MAY-2024 19:40",
+          "Lab Requisition Number": "3829986"
+        },
+        {
+          "Sample Collected": "",
+          "Visit": "",
+          "Fasted 8 Hours": "",
+          "Blood Sample": "",
+          "Urinalysis": "",
+          "Date/Time Collected": "",
+          "Lab Requisition Number": ""
+        },
+        {
+          "Sample Collected": "",
+          "Visit": "",
+          "Fasted 8 Hours": "",
+          "Blood Sample": "",
+          "Urinalysis": "",
+          "Date/Time Collected": "",
+          "Lab Requisition Number": ""
+        }
+      ]
+    },
+    "301-400-101::v2::bpi": {
+      "completed": "Yes",
+      "completion_datetime": "2024-05-13T19:35",
+      "comments": ""
+    },
+    "301-400-101::v2::randomization": {
+      "randomized": "Yes",
+      "randomization_datetime": "2024-05-13T19:35",
+      "treatment_assignment": "Blinded treatment"
+    },
+    "301-400-101::v2::firstDose": {
+      "first_dose_given": "Yes",
+      "dose_datetime": "2024-05-13T19:35",
+      "comments": ""
+    },
+    "301-400-101::v2::dispenseIp": {
+      "ip_dispensed": "Yes",
+      "kit_number": "",
+      "quantity_dispensed": "",
+      "quantity_returned": "",
+      "return_status": "",
+      "accountability_done": "",
+      "comments": ""
+    },
+    "301-400-101::v2::rescueMedication": {
+      "dispensed": "Yes",
+      "kit_or_lot": "",
+      "quantity_dispensed": "",
+      "quantity_returned": "",
+      "quantity_used_since_last_visit": "",
+      "maximum_daily_dose_exceeded": "",
+      "use_notes": "",
+      "accountability_done": "",
+      "comments": ""
+    },
+    "301-400-101::v2::pgi": {
+      "completed": "Yes",
+      "severity": "5 - Moderately Severe",
+      "completion_datetime": ""
+    },
+    "301-400-101::v2::conMeds": {
+      "changes_since_last_visit": "No",
+      "no_meds": true,
+      "meds": [
+        {
+          "Medication": "",
+          "Reason": "",
+          "Start": "",
+          "Stop": "",
+          "Dose": "",
+          "Units": "",
+          "Route": "",
+          "Frequency": ""
+        },
+        {
+          "Medication": "",
+          "Reason": "",
+          "Start": "",
+          "Stop": "",
+          "Dose": "",
+          "Units": "",
+          "Route": "",
+          "Frequency": ""
+        },
+        {
+          "Medication": "",
+          "Reason": "",
+          "Start": "",
+          "Stop": "",
+          "Dose": "",
+          "Units": "",
+          "Route": "",
+          "Frequency": ""
+        },
+        {
+          "Medication": "",
+          "Reason": "",
+          "Start": "",
+          "Stop": "",
+          "Dose": "",
+          "Units": "",
+          "Route": "",
+          "Frequency": ""
+        }
+      ]
+    },
+    "301-400-101::v2::adverseEvents": {
+      "changes_since_last_visit": "No",
+      "no_ae": true,
+      "aes": [
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        },
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        },
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        },
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        },
+        {
+          "Term": "",
+          "Start": "",
+          "Stop": "",
+          "Severity": "",
+          "Related": "",
+          "Serious?": "",
+          "Hospitalization?": "",
+          "Outcome": "",
+          "Action Taken": ""
+        }
+      ]
+    },
+    "301-400-101::v2::protocolDeviations": {
+      "no_deviations": true,
+      "deviations": [
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        },
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        },
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        },
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        },
+        {
+          "Issue": "",
+          "Date/Timing": "",
+          "Source Location": "",
+          "Impact": "",
+          "Action Taken": ""
+        }
+      ]
+    },
+    "301-400-101::v2::sourceFindings": {
+      "source_note_reviewed": "Yes",
+      "findings": [
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        },
+        {
+          "Finding": "",
+          "EDC Destination": "",
+          "Date/Timing": "",
+          "Action / Comment": ""
+        }
+      ]
+    },
+    "301-400-101::v2::progressNote": {
+      "note_datetime": "2024-05-17T10:36",
+      "author": "[fictional training role]",
+      "note": "Visit completed according to protocol and patient doing well.",
+      "history": "",
+      "reportable_facts": ""
+    },
+    "301-400-101::v2::signoff": {
+      "visit_esigned": "Yes",
+      "signer": "[fictional training role]",
+      "signature_datetime": "2024-05-13T19:39",
+      "review_statement": "I have reviewed the source documentation for this visit."
+    }
+  },
+  "queries": {
+    "301-400-101::v1::sourceHeader": [],
+    "301-400-101::v1::icf": [],
+    "301-400-101::v1::eligibility": [],
+    "301-400-101::v1::demographics": [],
+    "301-400-101::v1::medicalHistory": [],
+    "301-400-101::v1::heightWeight": [],
+    "301-400-101::v1::vitals": [],
+    "301-400-101::v1::physicalExam": [],
+    "301-400-101::v1::triplicateEcg": [],
+    "301-400-101::v1::labs": [],
+    "301-400-101::v1::analgesic": [],
+    "301-400-101::v1::rescueMedication": [],
+    "301-400-101::v1::bpi": [],
+    "301-400-101::v1::pgi": [],
+    "301-400-101::v1::conMeds": [],
+    "301-400-101::v1::adverseEvents": [],
+    "301-400-101::v1::protocolDeviations": [],
+    "301-400-101::v1::sourceFindings": [],
+    "301-400-101::v1::progressNote": [],
+    "301-400-101::v1::signoff": [],
+    "301-400-101::v2::sourceHeader": [],
+    "301-400-101::v2::vitals": [],
+    "301-400-101::v2::ecg": [],
+    "301-400-101::v2::labs": [],
+    "301-400-101::v2::bpi": [],
+    "301-400-101::v2::randomization": [],
+    "301-400-101::v2::firstDose": [],
+    "301-400-101::v2::dispenseIp": [],
+    "301-400-101::v2::rescueMedication": [],
+    "301-400-101::v2::pgi": [],
+    "301-400-101::v2::conMeds": [],
+    "301-400-101::v2::adverseEvents": [],
+    "301-400-101::v2::protocolDeviations": [],
+    "301-400-101::v2::sourceFindings": [],
+    "301-400-101::v2::progressNote": [],
+    "301-400-101::v2::signoff": []
+  },
+  "audit": [
+    {
+      "at": "2026-08-18T19:22:02.076Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Investigator Sign-off",
+      "fields": [
+        "visit_esigned",
+        "signer",
+        "signature_datetime",
+        "review_statement"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:21:10.059Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Progress Note",
+      "fields": [
+        "note_datetime",
+        "author",
+        "note"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:19:50.392Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Source Findings",
+      "fields": [
+        "source_note_reviewed",
+        "findings"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:19:27.276Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Protocol Deviations / Issues",
+      "fields": [
+        "no_deviations",
+        "deviations"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:18:44.010Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Adverse Events",
+      "fields": [
+        "changes_since_last_visit",
+        "no_ae",
+        "aes"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:17:23.793Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Concomitant Medications",
+      "fields": [
+        "changes_since_last_visit",
+        "no_meds",
+        "meds"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:17:07.443Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "PGI-S",
+      "fields": [
+        "completed",
+        "severity"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:16:29.694Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Rescue Medication",
+      "fields": [
+        "dispensed"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:16:23.627Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Dispense IP",
+      "fields": [
+        "ip_dispensed"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:16:07.363Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "First Dose",
+      "fields": [
+        "first_dose_given",
+        "dose_datetime"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:15:22.797Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Randomization",
+      "fields": [
+        "randomized",
+        "randomization_datetime",
+        "treatment_assignment"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:14:32.231Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Brief Pain Inventory",
+      "fields": [
+        "completed",
+        "completion_datetime"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:14:00.847Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Laboratory Samples",
+      "fields": [
+        "changes_since_last_visit",
+        "change_reason",
+        "change_details",
+        "no_samples",
+        "fasted_8h",
+        "hematology_collected"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:09:39.347Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "ECG",
+      "fields": [
+        "ecg_performed",
+        "ecg_before_vitals_labs",
+        "sex",
+        "position",
+        "time_in_position",
+        "ecg_time"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:07:55.347Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Vitals",
+      "fields": [
+        "position",
+        "position_datetime",
+        "vitals_datetime",
+        "temp_f",
+        "temp_c",
+        "temp_method"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:06:30.197Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 2: Baseline / Randomization",
+      "form": "Visit Header",
+      "fields": [
+        "study_name",
+        "subject_id",
+        "visit_number",
+        "visit_name",
+        "source_version",
+        "status_completed_date"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:02:27.514Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Investigator Sign-off",
+      "fields": [
+        "visit_esigned",
+        "signer",
+        "signature_datetime",
+        "review_statement"
+      ]
+    },
+    {
+      "at": "2026-08-18T19:00:47.447Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Progress Note",
+      "fields": [
+        "note_datetime",
+        "author",
+        "note"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:57:56.547Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Source Findings",
+      "fields": [
+        "source_note_reviewed",
+        "findings"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:56:48.563Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Protocol Deviations / Issues",
+      "fields": [
+        "no_deviations",
+        "deviations"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:56:37.264Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Adverse Events",
+      "fields": [
+        "no_ae",
+        "aes"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:56:19.314Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Concomitant Medications",
+      "fields": [
+        "changes_since_last_visit",
+        "meds"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:50:22.246Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Concomitant Medications",
+      "fields": [
+        "changes_since_last_visit",
+        "no_meds",
+        "meds"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:48:58.730Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "PGI-S",
+      "fields": [
+        "completed",
+        "severity"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:48:42.880Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Brief Pain Inventory",
+      "fields": [
+        "completed"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:48:03.647Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Rescue Medication",
+      "fields": [
+        "dispensed"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:47:18.780Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Analgesic Medication",
+      "fields": [
+        "analgesics_discontinued"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:45:05.913Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Laboratory Samples",
+      "fields": [
+        "lab_records"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:44:27.030Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Laboratory Samples",
+      "fields": [
+        "changes_since_last_visit",
+        "no_samples",
+        "fasted_8h",
+        "hematology_collected",
+        "chemistry_collected",
+        "hba1c_collected"
+      ]
+    },
+    {
+      "at": "2026-08-18T18:36:27.363Z",
+      "subject": "C-J 301-400-101",
+      "visit": "Visit 1: Screening",
+      "form": "Triplicate ECG",
+      "fields": [
+        "ecg_performed",
+        "ecg_before_vitals_labs",
+        "sex",
+        "position",
+        "time_in_position",
+        "ecg_1_time"
+      ]
+    }
+  ]
+}

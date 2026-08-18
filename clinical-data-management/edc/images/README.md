@@ -1,17 +1,10 @@
-# EDC screenshot folder
+# Published EDC screenshots
 
-Add only screenshots that contain fictional training data.
+These images contain fictional training data from the CRC Academy EDC Sandbox.
 
-Recommended filenames:
+1. `edc-01-casebook-overview.png` — cropped subject, visit, and form overview
+2. `edc-02-structured-forms.png` — combined crops of two structured eCRF examples
+3. `edc-03-signoff-redacted.png` — completed sign-off example with the e-signature token removed
 
-1. `edc-01-worklist.png` — subject worklist and casebook selection
-2. `edc-02-source-ecrf.png` — fictional source page and matching eCRF fields
-3. `edc-03-edit-check-query.png` — edit check, discrepancy, or query review
-4. `edc-04-audit-export.png` — audit history or exported practice output
-
-Before publishing a screenshot:
-
-- confirm that no real patient information, login credential, email address, or confidential study information is visible;
-- crop the image to the relevant interface area;
-- keep enough context to show the action being explained;
-- add an accurate alt description when inserting the image into the page.
+The unused and repetitive screenshots were intentionally excluded. Do not replace the redacted
+sign-off image with the original screenshot because the original displays an e-signature token.
