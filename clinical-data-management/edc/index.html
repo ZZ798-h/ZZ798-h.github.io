@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A hands-on EDC and eCRF practice case study using fictional clinical research data.">
+  <title>EDC &amp; eCRF Practice | Zhan Zhao</title>
+  <link rel="stylesheet" href="../../assets/styles.css">
+</head>
+
+<body>
+  <nav class="site-nav" aria-label="Primary navigation">
+    <div class="container nav-inner">
+      <a class="brand" href="../../">Zhan Zhao</a>
+      <div class="nav-links">
+        <a href="../../">Home</a>
+        <a href="../">Clinical Data Management</a>
+        <a href="./" aria-current="page">EDC Practice</a>
+        <a href="https://github.com/ZZ798-h" target="_blank" rel="noreferrer">GitHub</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="container">
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="../../">Home</a>
+        <span aria-hidden="true">/</span>
+        <a href="../">Clinical Data Management</a>
+        <span aria-hidden="true">/</span>
+        <span>EDC &amp; eCRF Practice</span>
+      </nav>
+
+      <header class="hero">
+        <p class="eyebrow">Hands-On Case Study</p>
+        <h1>EDC &amp; eCRF Practice</h1>
+        <p class="subtitle">
+          Learning how fictional source information moves through an electronic data capture
+          workflow—from casebook review and eCRF entry to edit checks, queries, audit trails,
+          and export.
+        </p>
+
+        <div class="tag-list">
+          <span class="tag">EDC</span>
+          <span class="tag">eCRF</span>
+          <span class="tag">Data Entry</span>
+          <span class="tag">Edit Checks</span>
+          <span class="tag">Queries</span>
+          <span class="tag">Audit Trail</span>
+        </div>
+      </header>
+
+      <section class="section" id="what-is-edc">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Background</p>
+            <h2>What Is EDC?</h2>
+          </div>
+        </div>
+
+        <div class="grid-2">
+          <article class="card">
+            <h3>Electronic Data Capture</h3>
+            <p>
+              An Electronic Data Capture (EDC) system is used to collect and manage clinical
+              research data in structured electronic case report forms (eCRFs). It helps study
+              teams enter, review, query, correct, and prepare data for downstream analysis.
+            </p>
+          </article>
+
+          <article class="card">
+            <h3>Why It Matters</h3>
+            <p>
+              EDC workflows support consistency, traceability, and timely review. The quality of
+              field definitions, form design, edit checks, and query handling directly affects the
+              reliability of the final clinical dataset.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="practice-environment">
+        <div class="callout">
+          <p class="eyebrow">Practice Environment</p>
+          <h2>CRC Academy EDC Sandbox</h2>
+          <p>
+            I used a public educational sandbox built around a fictional TCX-301 study casebook.
+            The environment supports reviewing source pages, entering eCRFs, responding to edit
+            checks, reviewing queries and audit history, and exporting practice work.
+          </p>
+          <p>
+            <strong>Environment:</strong>
+            <a href="https://crc-edc-sandbox.netlify.app/" target="_blank" rel="noreferrer">
+              crc-edc-sandbox.netlify.app
+            </a>
+          </p>
+          <p class="muted">
+            This is a third-party training environment. All portfolio examples should use only
+            fictional data and should not include real patient or confidential study information.
+          </p>
+          <div class="actions">
+            <a class="button" href="https://crc-edc-sandbox.netlify.app/" target="_blank" rel="noreferrer">
+              Open the practice sandbox
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="workflow">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Process</p>
+            <h2>Practice Workflow</h2>
+          </div>
+          <p>
+            The workflow follows the data from source review through reviewable output. Each step
+            creates a natural point for a screenshot or short note.
+          </p>
+        </div>
+
+        <ol class="workflow">
+          <li>
+            <strong>Review context</strong>
+            <span>Read the fictional protocol, source pages, subject status, and visit schedule.</span>
+          </li>
+          <li>
+            <strong>Select the correct casebook</strong>
+            <span>Confirm the subject, event/visit, and form before entering data.</span>
+          </li>
+          <li>
+            <strong>Enter the eCRF</strong>
+            <span>Transfer fictional source information into the matching structured fields.</span>
+          </li>
+          <li>
+            <strong>Save and review checks</strong>
+            <span>Save the form and inspect any required-field, range, or consistency messages.</span>
+          </li>
+          <li>
+            <strong>Handle queries</strong>
+            <span>Investigate the discrepancy and document a clear response or correction.</span>
+          </li>
+          <li>
+            <strong>Confirm traceability</strong>
+            <span>Review audit history and exported practice data for completeness.</span>
+          </li>
+        </ol>
+      </section>
+
+      <section class="section" id="hands-on-practice">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Evidence</p>
+            <h2>Hands-On Practice</h2>
+          </div>
+          <p>
+            Use one screenshot for one action. Under every screenshot, explain what I did, why it
+            matters, and what I learned. This makes the evidence easier to understand in an interview.
+          </p>
+        </div>
+
+        <!--
+          TO ADD A REAL SCREENSHOT:
+          1. Upload the PNG file to the images folder using the filename shown in the placeholder.
+          2. Delete the corresponding screenshot-placeholder div.
+          3. Insert an image such as:
+             <img class="practice-image" src="images/FILE-NAME.png" alt="Describe the fictional EDC action shown">
+        -->
+
+        <figure class="practice-card">
+          <div class="screenshot-placeholder" role="img" aria-label="Placeholder for subject worklist screenshot">
+            <div class="placeholder-content">
+              <span class="placeholder-label">Screenshot 01</span>
+              <h3>Subject Worklist &amp; Casebook Selection</h3>
+              <p>Capture the fictional subject list or casebook screen before opening a visit.</p>
+              <span class="placeholder-file">images/edc-01-worklist.png</span>
+            </div>
+          </div>
+
+          <figcaption class="practice-body">
+            <h3>1. Orienting to the Subject, Visit, and Form</h3>
+            <p>
+              This screenshot should show how the casebook is organized before data entry begins.
+            </p>
+
+            <div class="reflection-grid">
+              <div class="reflection">
+                <h4>What I did</h4>
+                <p>I reviewed the fictional subject worklist, subject status, visit schedule, and available forms before selecting a casebook.</p>
+              </div>
+              <div class="reflection">
+                <h4>Why it matters</h4>
+                <p>Confirming the correct subject, event, and form reduces the risk of entering valid information in the wrong location.</p>
+              </div>
+              <div class="reflection">
+                <h4>What I learned</h4>
+                <p>EDC data entry begins with orientation and verification—not with typing values into fields.</p>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="practice-card">
+          <div class="screenshot-placeholder" role="img" aria-label="Placeholder for source-to-eCRF data entry screenshot">
+            <div class="placeholder-content">
+              <span class="placeholder-label">Screenshot 02</span>
+              <h3>Source Review &amp; eCRF Data Entry</h3>
+              <p>Capture the fictional source page beside the matching eCRF fields.</p>
+              <span class="placeholder-file">images/edc-02-source-ecrf.png</span>
+            </div>
+          </div>
+
+          <figcaption class="practice-body">
+            <h3>2. Transferring Fictional Source Data into an eCRF</h3>
+            <p>
+              This screenshot should show a completed or partially completed form without exposing
+              any real personal information.
+            </p>
+
+            <div class="reflection-grid">
+              <div class="reflection">
+                <h4>What I did</h4>
+                <p>I compared the fictional source page with the eCRF and entered the matching values into structured fields.</p>
+              </div>
+              <div class="reflection">
+                <h4>Why it matters</h4>
+                <p>Accurate source-to-form transcription supports traceability and reduces ambiguity in downstream cleaning and analysis.</p>
+              </div>
+              <div class="reflection">
+                <h4>What I learned</h4>
+                <p>CRF field design, allowed values, units, and required fields directly influence the quality of collected data.</p>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="practice-card">
+          <div class="screenshot-placeholder" role="img" aria-label="Placeholder for edit check and query screenshot">
+            <div class="placeholder-content">
+              <span class="placeholder-label">Screenshot 03</span>
+              <h3>Edit Check &amp; Query Review</h3>
+              <p>Capture a fictional validation message, discrepancy, or query and its context.</p>
+              <span class="placeholder-file">images/edc-03-edit-check-query.png</span>
+            </div>
+          </div>
+
+          <figcaption class="practice-body">
+            <h3>3. Investigating an Edit Check or Query</h3>
+            <p>
+              This screenshot should show the issue and enough surrounding context to explain the
+              review decision.
+            </p>
+
+            <div class="reflection-grid">
+              <div class="reflection">
+                <h4>What I did</h4>
+                <p>I saved the form, reviewed a triggered check or query, compared it with the fictional source, and documented the appropriate response.</p>
+              </div>
+              <div class="reflection">
+                <h4>Why it matters</h4>
+                <p>Queries provide a controlled way to clarify missing, inconsistent, or implausible data without silently changing the record.</p>
+              </div>
+              <div class="reflection">
+                <h4>What I learned</h4>
+                <p>A good query response is specific, evidence-based, concise, and clear about whether data were confirmed or corrected.</p>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+
+        <figure class="practice-card">
+          <div class="screenshot-placeholder" role="img" aria-label="Placeholder for audit trail and export screenshot">
+            <div class="placeholder-content">
+              <span class="placeholder-label">Screenshot 04</span>
+              <h3>Audit Trail &amp; Export Review</h3>
+              <p>Capture the fictional change history, audit record, or exported practice output.</p>
+              <span class="placeholder-file">images/edc-04-audit-export.png</span>
+            </div>
+          </div>
+
+          <figcaption class="practice-body">
+            <h3>4. Reviewing Traceability and Output</h3>
+            <p>
+              This screenshot should show how a saved change or final output can be reviewed after
+              data entry.
+            </p>
+
+            <div class="reflection-grid">
+              <div class="reflection">
+                <h4>What I did</h4>
+                <p>I reviewed the fictional audit history and exported practice data to confirm that saved values and changes were represented.</p>
+              </div>
+              <div class="reflection">
+                <h4>Why it matters</h4>
+                <p>Reviewable change history and exports support accountability, reconciliation, QC, and downstream programming.</p>
+              </div>
+              <div class="reflection">
+                <h4>What I learned</h4>
+                <p>Clinical data are not just final values; the context, timing, and traceability of changes are also important.</p>
+              </div>
+            </div>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="section" id="takeaways">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Reflection</p>
+            <h2>Key Takeaways</h2>
+          </div>
+        </div>
+
+        <article class="card">
+          <ul class="takeaways">
+            <li>Correct subject, visit, and form selection is a data-quality control.</li>
+            <li>eCRF structure determines how consistently study information can be collected.</li>
+            <li>Edit checks identify potential issues, but human review is still needed to interpret context.</li>
+            <li>Query responses should be concise, evidence-based, and traceable.</li>
+            <li>Audit trails and exports connect operational data entry with QC and downstream analysis.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section" id="next-step">
+        <div class="callout">
+          <p class="eyebrow">Next Step</p>
+          <h2>Build a Small Synthetic Clinical Dataset</h2>
+          <p>
+            The next artifact will convert the workflow into three simple fictional CSV datasets:
+            Demographics (DM), Vital Signs (VS), and Adverse Events (AE). I will then run basic SAS
+            QC checks for missing values, invalid dates, out-of-range measurements, and cross-file
+            consistency, recording any findings in a query log.
+          </p>
+          <p class="muted">
+            DM, VS, and AE are common domain abbreviations. At this stage, the goal is not to claim
+            a submission-ready CDISC package; it is to demonstrate the logic connecting collected
+            data, cleaning rules, documentation, and programming.
+          </p>
+          <div class="actions">
+            <a class="button secondary" href="../">Return to Learning Lab</a>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <span>© 2026 Zhan Zhao</span>
+      <span>Training example using fictional data only</span>
+    </div>
+  </footer>
+</body>
+</html>
